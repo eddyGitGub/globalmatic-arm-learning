@@ -3,9 +3,9 @@
 name: armTemplateDeployment
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
 env:
  resource_group_name:  rg-githubactions
